@@ -1,13 +1,16 @@
 {
   "name": "portfolio",
   "version": "0.0.1",
+  "homepage": "https://sharad9227.github.io/myportfolio",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +25,7 @@
     "@fortawesome/fontawesome-free": "^5.12.1",
     "@popperjs/core": "^2.0.6",
     "axios": "^0.19.2",
+    "gh-pages": "^3.1.0",
     "popper.js": "^1.16.1",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
