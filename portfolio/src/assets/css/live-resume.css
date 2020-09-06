@@ -7,20 +7,20 @@ aside .profile-img-wrapper {
     border-radius: 50%; }
 
 aside .profile-name {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 500;
   text-align: center;
-  line-height: 30px; }
+  line-height: 26px; }
 
 aside .profile-designation {
   padding: 5px 25px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 20px;
   font-weight: 500;
-  margin-bottom: 10px; }
+   }
 
 aside .social-links {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: center; }
   aside .social-links .social-link {
     display: inline-block;
@@ -30,6 +30,7 @@ aside .social-links {
     text-align: center;
     background-color: #ffffff;
     padding: 8px;
+    padding-right: 41px;
     width: 28px;
     height: 28px;
     border-radius: 50%;
@@ -39,11 +40,16 @@ aside .social-links {
 
 aside .widget {
   text-align: center;
-  margin-bottom: 28px; }
+  margin-bottom: 28px;
+  width: 238px;
+  border-radius: 6px;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08);
+ }
   aside .widget .widget-title {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
+    text-decoration: underline;
     margin-bottom: 10px; }
   aside .widget .widget-content {
     font-size: 13px; }
@@ -254,16 +260,18 @@ main {
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background-color: #979797; }
+        background-color: #75eb3e; }
       main .time-line-item:nth-child(2n)::after {
-        background-color: #0067f6; }
+        background-color: #979797; }
+        main .time-line-item:nth-child(3n)::after {
+          background-color: #979797; }
       main .time-line-item:not(:first-child)::after {
         top: 5px; }
       main .time-line-item:last-child {
         padding-bottom: 0; }
       main .time-line-item .badge {
         padding: 6px 10px;
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 500;
         line-height: 1;
         border-radius: 2px;
@@ -274,10 +282,10 @@ main {
         line-height: 1;
         margin-bottom: 2px; }
       main .time-line-item-subtitle {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 500;
         line-height: 1.6;
-        color: #a7a7a7;
+        color: #141313;
         margin-bottom: 3px; }
       main .time-line-item-content {
         font-size: 10px;
